@@ -1,1 +1,41 @@
+# Hi, I'm Rasmus 👋
+
+I received my **MSc in Artificial Intelligence** in 2026 from the USC University of Santiago. I build and *evaluate* ML and LLM systems in Python, from data pipelines to production-ready retrieval-augmented generation. My thesis focused on LLM classification and **evaluation**, so naturally measurement is for me an important part of anything I ship.
+
+`Python` · `LLMs & RAG` · `PyTorch / TensorFlow` · `PySpark` · `FastAPI` · `Docker` · `CI/CD`
+
+---
+
+## 🚀 Featured projects
+
+### [Relocation Assistant — RAG with Source Citations & Evaluation](https://github.com/rasmusfaber-ai/relocation-assistant-rag)
+I got the idea for this project while starting to plan my own move to Poland: figuring out PESEL, meldunek and ZUS registration was confusing enough that I wanted a tool that answers those questions *and shows its sources*. A production-shaped **retrieval-augmented generation** assistant that answers relocation questions (to Poland) grounded in official sources and traces **every answer back to the source passages** behind it. I combined it with a real **evaluation harness** (hit-rate@k, MRR, answer groundedness) enforced as a **CI quality gate**, plus a Streamlit UI, Docker, and a live demo.
+
+`RAG` · `LLMs` · `FastAPI` · `Chroma` · `pytest` · `ruff + mypy` · `GitHub Actions` — **[Live demo »](https://relocation-assistant-rag.streamlit.app/)**
+
+### [Baseball Hall-of-Fame Prediction — PySpark](https://github.com/rasmusfaber-ai/baseball_hof_prediction)
+I built this one out of my passion for sports and especially sports data. An end-to-end **distributed-ML** pipeline on 200k+ player-season records: multi-table joins, career-level feature engineering, five classifiers with grid-search cross-validation, and an honest evaluation (AUROC, PR-AUC, threshold tuning) reframed around **severe class imbalance**.
+
+`PySpark` · `Spark ML` · `Distributed data`
+
+### [Diabetic Retinopathy Detection — Deep Learning](https://github.com/rasmusfaber-ai/Diabetic-Retinopathy-Detection)
+I wanted to test myself on a real, high-stakes medical problem — one where plain accuracy quietly lies and the rare, severe cases are exactly the ones that matter most. A study of **class imbalance in medical imaging**: a custom CNN vs. transfer learning (ResNet50, EfficientNet) for 5-class DR severity grading, evaluated with **Quadratic Weighted Kappa**, per-class recall and confusion matrices against a majority-class baseline.
+
+`TensorFlow / Keras` · `Transfer learning` · `Computer vision`
+
+---
+
+## 🧰 What I work with
+
+- **ML / DL:** scikit-learn, TensorFlow/Keras, PyTorch, transfer learning, imbalanced-data handling
+- **LLMs:** RAG, embeddings & vector search, prompt/response engineering and evaluation, groundedness
+- **Data & scale:** PySpark, pandas, feature engineering, distributed pipelines
+- **Engineering:** FastAPI, Streamlit, Docker, pytest, GitHub Actions (CI), ruff/mypy
+
+---
+
+## 📫 Get in touch
+
+- 💼 LinkedIn: `https://www.linkedin.com/in/rasmus-faber/`
+- 📧 Email: `ra.fa.koeln@gmail.com`
 
