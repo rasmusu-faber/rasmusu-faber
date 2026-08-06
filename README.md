@@ -28,7 +28,7 @@ I wanted to test myself on a real, high-stakes medical problem — one where pla
 ## 🧰 What I work with
 
 - **ML / DL:** scikit-learn, TensorFlow/Keras, PyTorch, transfer learning, imbalanced-data handling
-- **LLMs:** RAG, embeddings & vector search, prompt/response engineering and evaluation, groundedness
+- **LLMs:** RAG, embeddings & vector search, prompt/response engineering and evaluation (Human-in-the-loop prompt refinement), groundedness
 - **Data & scale:** PySpark, pandas, feature engineering, distributed pipelines
 - **Engineering:** FastAPI, Streamlit, Docker, pytest, GitHub Actions (CI), ruff/mypy
 
