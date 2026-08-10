@@ -1,6 +1,8 @@
 # Hi, I'm Rasmus 👋
-I recently finished my MSc in Artificial Intelligence at USC Santiago (2026). I build and evaluate ML/LLM systems in Python, from data pipelines to production-ready RAG. My thesis focused on LLM classification and evaluation, which is why I care a lot about measuring what actually works.
+
 Welcome to my GitHub! Here I explore the different things you can build with AI, mostly by building ML/LLM systems in Python.
+
+I recently finished my MSc in Artificial Intelligence at USC Santiago (2026). I build and evaluate ML/LLM systems in Python, from data pipelines to production-ready RAG. My thesis focused on LLM classification and evaluation, which is why I care a lot about measuring what actually works.
 
 `Python` · `LLMs & RAG` · `PyTorch / TensorFlow` · `PySpark` · `FastAPI` · `Docker` · `CI/CD`
 
