@@ -15,6 +15,11 @@ I got the idea for this project while starting to plan my own move to Poland: fi
 
 `RAG` · `LLMs` · `FastAPI` · `Chroma` · `pytest` · `ruff + mypy` · `GitHub Actions` — **[Live demo »](https://relocation-assistant-rag.streamlit.app/)**
 
+### [Gameboy LLM agent - An LLM Plays a Game Boy Game](https://github.com/rasmusfaber-ai/gameboy-llm-agent)
+I wanted to see whether a small LLM can play a game through reasoning alone, no memorized walkthroughs and no vision model. The agent plays Deadeus (an open-source Game Boy horror game) by reading emulator RAM and the tilemap directly. Deterministic code handles the reflexes (e.g. pathing, door-finding), and the LLM is spent only on judgement calls. The demo GIF shows the model's own reasoning overlaid, round by round.
+
+`PyBoy` · `LLM agents`
+
 ### [Baseball Hall-of-Fame Prediction — PySpark](https://github.com/rasmusfaber-ai/baseball_hof_prediction)
 I built this one out of my passion for sports and especially sports data. An end-to-end **distributed-ML** pipeline on 200k+ player-season records: multi-table joins, career-level feature engineering, five classifiers with grid-search cross-validation, and an honest evaluation (AUROC, PR-AUC, threshold tuning) reframed around **severe class imbalance**.
 
@@ -30,7 +35,7 @@ I wanted to test myself on a real, high-stakes medical problem — one where pla
 ## 🧰 What I work with
 
 - **ML / DL:** scikit-learn, TensorFlow/Keras, PyTorch, transfer learning, imbalanced-data handling
-- **LLMs:** RAG, embeddings & vector search, prompt/response engineering and evaluation (Human-in-the-loop prompt refinement), groundedness
+- **LLMs:** RAG, embeddings & vector search, prompt/response engineering and evaluation (Human-in-the-loop prompt refinement), groundedness, agentic workflows
 - **Data & scale:** PySpark, pandas, feature engineering, distributed pipelines
 - **Engineering:** FastAPI, Streamlit, Docker, pytest, GitHub Actions (CI), ruff/mypy
 
