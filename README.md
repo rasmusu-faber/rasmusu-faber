@@ -11,7 +11,7 @@ I recently finished my MSc in Artificial Intelligence at USC Santiago (2026). I 
 ## 🚀 Featured projects
 
 ### [Relocation Assistant — RAG with Source Citations & Evaluation](https://github.com/rasmusu-faber/relocation-assistant-rag)
-I got the idea for this project while starting to plan my own move to Poland: figuring out PESEL, meldunek and ZUS registration was confusing enough that I wanted a tool that answers those questions *and shows its sources*. A production-shaped **retrieval-augmented generation** assistant that answers relocation questions (to Poland) grounded in official sources and traces **every answer back to the source passages** behind it. I combined it with a real **evaluation harness** (hit-rate@k, MRR, answer groundedness) enforced as a **CI quality gate**, plus a Streamlit UI, Docker, and a live demo.
+Moving to Poland means navigating PESEL, meldunek and ZUS registration, which is confusing enough that I wanted a tool that answers these questions **and shows its sources**. It is a **retrieval-augmented generation** assistant that grounds every answer in official sources and traces it to the passages behind it. Poland is the example case; the pattern fits any domain with official or internal documents. An **evaluation harness** (hit-rate@k, MRR, answer groundedness) runs as a **CI quality gate** in GitHub Actions alongside ruff, mypy and pytest and fails the build when retrieval quality drops. Includes a Streamlit UI, Docker and a live demo.
 
 `RAG` · `LLMs` · `FastAPI` · `Chroma` · `pytest` · `ruff + mypy` · `GitHub Actions` — **[Live demo »](https://relocation-assistant-rag.streamlit.app/)**
 
